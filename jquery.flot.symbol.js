@@ -51,6 +51,21 @@ The symbols are accessed as strings through the standard symbol options:
                 ctx.lineTo(x + size, y + size);
                 ctx.moveTo(x - size, y + size);
                 ctx.lineTo(x + size, y - size);
+            },
+            star : function (ctx, x, y, radius, shadow) {
+                var alpha = (2 * Math.PI) / 10;
+                var starXY = [x,y]
+
+                ctx.beginPath();
+
+                for(var i = 11; i != 0; i--)
+                {
+                    var r = radius*(i % 2 + 1)/2;
+                    var omega = alpha * i;
+                    ctx.lineTo((r * Math.sin(omega)) + starXY[0], (r * Math.cos(omega)) + starXY[1]);
+                }
+                ctx.closePath();
+                ctx.fill();
             }
         };
 
