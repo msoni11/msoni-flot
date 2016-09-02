@@ -1,7 +1,7 @@
 # Flot [![Build status](https://travis-ci.org/flot/flot.png)](https://travis-ci.org/flot/flot)
 
 ## New features
-This package includes additional start symbol and x axis label in single package.
+This package includes additional star symbol and x axis label in single package.
 
 
 ## About ##
