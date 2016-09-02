@@ -1,5 +1,9 @@
 # Flot [![Build status](https://travis-ci.org/flot/flot.png)](https://travis-ci.org/flot/flot)
 
+## New features
+This package includes additional start symbom and x axis label in single package.
+
+
 ## About ##
 
 Flot is a Javascript plotting library for jQuery.  
